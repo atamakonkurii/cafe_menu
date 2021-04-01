@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<div class="text-center mt-4">
+  <h3>席番号を選んでください</h3>
+<%=form_tag("users/create") do%>
+  <select name="seat_number">
+    <option value=1>1</option>
+    <option value=2>2</option>
+    <option value=3>3</option>
+    <option value=4>4</option>
+    <option value=5>5</option>
+    <option value=6>6</option>
+  </select>
+  <input type="submit" value="確定"%>
+<%end%>
+</div>
+</html>
