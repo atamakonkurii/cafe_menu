@@ -1,24 +1,40 @@
-# README
+# cafe_menu
+モバイルアプリエンジニアになりたくて行った先のカジュアル面談で、未経験者ならバックエンドエンジニアがいいよと言われ、面接までの1週間で作った。
+rubyもrailsも触ったことがなかったので、勉強+実装を以下のようなスケジュール感で行なった。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+↓面接時に見せた資料にも書いた(原文ママ)
 
-Things you may want to cover:
+### やったこと
+* 3/26(金)：カジュアル面談(←Railsエンジニアをおすすめしていただく)
+* 3/27(土)：Progate Ruby
+* 3/28(日)：Progate Ruby on rails　(←台湾中国語検定日)
+* 3/29(月)：Progate Ruby on rails & 作成物構想 （カフェの電子メニュー）
+* 3/30(火):ローカルでの実行環境構築(Ruby & rails & Ruby Mine),ローカル環境で表示確認(localhost:3000),railsの簡単な動作確認
+* 3/31(水):モデル作成,メニューの登録,Bootstrapのテンプレート適用
+* 4/1(木,1日有休):カート機能、注文履歴機能、~~herokuデプロイ予定~~←間に合いませんでした
 
-* Ruby version
 
-* System dependencies
+###　選定理由
+台湾人の彼女がいるのですが、将来カフェを経営したいと言っております。そのため、名古屋のモーニングによく二人で行くのですが、メニューに文字しかなくて（おしゃれなのかもしれませんが、、、）選びにくかったり、メニューが使い古されていたりします。とても困るということはありませんが、スマホを一人一台持っている世の中であればそれで表示できるようにすればいいのではないかと思いました。また、さらにスマホにすることで注文もスマホでできる可能性があったり（100円回転寿司のイメージが近い）、経営者さん視点のメリットとしてメニューの入れ替えがしやすい、値段が変えやすい、導入コストも高くなさそうということで良いのではと考えています。
 
-* Configuration
+実は栄にあるお酒１杯200円のバーにそのようなシステムが導入されているのを見たことがあります。
+[ムーンウォーク 栄店](https://tabelog.com/aichi/A2301/A230103/23049255/)
 
-* Database creation
+・来店者にQRコードを発行（誰が注文したかを特定するため）
+・リンク先にメニューが乗っていて、注文までスマホできる。
+・メニューにカクテルの詳細とかも書いてあって面白い
+・売れ筋ランキング表示もできる
+・注文履歴でどのくらい飲んでるか、お金がかかっているかを見れる
+・会計はレジで
 
-* Database initialization
+今回の作成物は上の機能の一部をイメージしながら作っています。
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### 画面のスクリーンショット
 
-* Deployment instructions
+<img width="406" alt="CafeMenu" src="https://user-images.githubusercontent.com/71773200/153419511-4cbbdceb-3f1c-442c-be65-97ef8a563405.png">
 
-* ...
+![localhost_3000_menus](https://user-images.githubusercontent.com/71773200/153420239-6dbbd2a4-fc51-4f25-8709-dd7991f6c4f5.png)
+
+<img width="964" alt="CafeMenu" src="https://user-images.githubusercontent.com/71773200/153420451-12ef1356-f0df-4f02-8004-0d1616027e38.png">
+<img width="955" alt="CafeMenu" src="https://user-images.githubusercontent.com/71773200/153420542-2f92b134-bb99-4fb7-908b-ec22c2e106e8.png">
